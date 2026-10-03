@@ -1,0 +1,52 @@
+2026-09-29 11:37:39,736 INFO employee_training Test Info Log from Employee Training
+2026-09-29 11:37:39,736 WARNING employee_training Test Warning Log from Employee Training
+2026-09-29 11:37:55,112 INFO employee_training [EmployeeTraining] Validated record for Employee: Aarav Sharma (EMP-001), Department: Engineering, Training: Advanced Frappe & ERPNext Architecture (Technical), Status: Completed
+2026-09-29 11:37:55,133 INFO employee_training [EmployeeTraining] Doc #1 updated: Employee=Aarav Sharma, Status=Completed, Certified=1, Duration=16.0h
+2026-09-29 11:38:32,079 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 5 records.
+2026-09-29 11:39:13,609 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 5 records.
+2026-09-29 12:16:20,035 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 5 records.
+2026-09-29 12:25:53,231 INFO employee_training [EmployeeTraining] Inserting new record: Employee=Pooja (6), Training=AI, Date=2026-09-30
+2026-09-29 12:25:53,307 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (6), Department: Sales, Training: AI (Soft Skills), Status: In Progress
+2026-09-29 12:25:53,309 INFO employee_training [EmployeeTraining] Doc #6 updated: Employee=Pooja, Status=In Progress, Certified=1, Duration=Noneh
+2026-09-29 12:29:27,186 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 6 records.
+2026-09-29 13:09:57,626 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 6 records.
+2026-09-29 13:10:06,372 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 6 records.
+2026-09-29 13:11:58,369 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 6 records.
+2026-09-29 13:12:38,367 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (6), Department: Sales, Training: AI (Soft Skills), Status: Completed
+2026-09-29 13:12:38,377 INFO employee_training [EmployeeTraining] Doc #6 updated: Employee=Pooja, Status=Completed, Certified=1, Duration=10h
+2026-09-29 13:12:41,788 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 6 records.
+2026-09-29 13:12:49,531 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={'employee_id': '6'}. Successfully returned 1 records.
+2026-09-29 13:14:38,834 INFO employee_training [EmployeeTraining] Inserting new record: Employee=Pooja (6), Training=agents, Date=2026-09-14
+2026-09-29 13:14:38,845 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (6), Department: Engineering, Training: agents (Technical), Status: Scheduled
+2026-09-29 13:14:38,848 INFO employee_training [EmployeeTraining] Doc #7 updated: Employee=Pooja, Status=Scheduled, Certified=1, Duration=23h
+2026-09-29 13:14:47,865 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={'employee_id': '6'}. Successfully returned 2 records.
+2026-09-29 13:14:54,512 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 7 records.
+2026-09-29 15:56:13,330 INFO employee_training [EmployeeTraining] Inserting new record: Employee=Pooja (EMO-010), Training=Frappe Developer Certification Workshop, Date=2026-09-30
+2026-09-29 15:56:13,401 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (EMO-010), Department: Engineering, Training: Frappe Developer Certification Workshop (Technical), Status: Scheduled
+2026-09-29 15:56:15,514 INFO employee_training [Email Sent] Training invitation sent to poojaratnasaisri.teku@ezfinanz.in for 'Frappe Developer Certification Workshop'
+2026-09-29 15:56:15,521 INFO employee_training [EmployeeTraining] Doc #8 updated: Employee=Pooja, Status=Scheduled, Certified=0, Duration=8h
+2026-09-29 16:02:23,334 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (EMO-012), Department: Engineering, Training: Frappe Developer Certification Workshop (Technical), Status: Scheduled
+2026-09-29 16:02:23,341 INFO employee_training [EmployeeTraining] Doc #8 updated: Employee=Pooja, Status=Scheduled, Certified=0, Duration=8h
+2026-09-29 16:03:22,595 INFO employee_training [EmployeeTraining] Validated record for Employee: siri (EMO-012), Department: Marketing, Training: Frappe  (Compliance), Status: Scheduled
+2026-09-29 16:03:22,597 INFO employee_training [EmployeeTraining] Doc #8 updated: Employee=siri, Status=Scheduled, Certified=0, Duration=8h
+2026-09-29 16:05:05,688 INFO employee_training [EmployeeTraining] Inserting new record: Employee=siri (EMP-013), Training=Ai, Date=2026-09-11
+2026-09-29 16:05:05,699 INFO employee_training [EmployeeTraining] Training 'Ai' for siri completed without feedback.
+2026-09-29 16:05:05,699 INFO employee_training [EmployeeTraining] Validated record for Employee: siri (EMP-013), Department: Marketing, Training: Ai (Onboarding), Status: Completed
+2026-09-29 16:05:08,696 INFO employee_training [Email Sent] Training invitation sent to poojaratnasaisri.teku@ezfinanz.in for 'Ai'
+2026-09-29 16:05:08,702 INFO employee_training [EmployeeTraining] Doc #9 updated: Employee=siri, Status=Completed, Certified=0, Duration=12h
+2026-09-29 16:06:09,294 INFO employee_training [EmployeeTraining] Training 'Ai' for siri completed without feedback.
+2026-09-29 16:06:09,295 INFO employee_training [EmployeeTraining] Validated record for Employee: siri (EMP-013), Department: Marketing, Training: Ai (Onboarding), Status: Completed
+2026-09-29 16:06:09,297 INFO employee_training [EmployeeTraining] Doc #9 updated: Employee=siri, Status=Completed, Certified=0, Duration=12h
+2026-09-29 16:12:14,892 INFO employee_training [Email Sent] Training invitation sent to gangabhavani.saladi@ezfinanz.in for 'Ai'
+2026-09-29 16:14:46,765 INFO employee_training [EmployeeTraining] Inserting new record: Employee=Pooja (EMP-003), Training=Gen Ai, Date=2026-09-25
+2026-09-29 16:14:46,779 INFO employee_training [EmployeeTraining] Training 'Gen Ai' for Pooja completed without feedback.
+2026-09-29 16:14:46,780 INFO employee_training [EmployeeTraining] Validated record for Employee: Pooja (EMP-003), Department: Engineering, Training: Gen Ai (Technical), Status: Completed
+2026-09-29 16:14:48,079 INFO employee_training [Email Sent] Training invitation sent to poojaratnasaisri.teku@ezfinanz.in for 'Gen Ai'
+2026-09-29 16:14:48,085 INFO employee_training [EmployeeTraining] Doc #10 updated: Employee=Pooja, Status=Completed, Certified=0, Duration=12h
+2026-09-29 16:22:27,524 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 10 records.
+2026-09-29 16:22:32,248 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={'employee_id': 'EMP-001'}. Successfully returned 1 records.
+2026-09-29 16:24:14,881 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 10 records.
+2026-09-29 16:51:33,017 INFO employee_training [EmployeeTraining] Inserting new record: Employee=praveen (EMP_987), Training=AI, Date=2026-09-28
+2026-09-29 16:51:33,068 INFO employee_training [EmployeeTraining] Validated record for Employee: praveen (EMP_987), Department: Marketing, Training: AI (Technical), Status: Scheduled
+2026-09-29 16:51:34,125 INFO employee_training [EmployeeTraining] Doc #11 updated: Employee=praveen, Status=Scheduled, Certified=0, Duration=12h
+2026-09-29 17:08:33,140 INFO employee_training [EmployeeTraining API] get_training_records invoked with filters={}. Successfully returned 11 records.

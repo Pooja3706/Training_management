@@ -1,0 +1,18 @@
+{
+    "frappe": {
+        "resolution": {
+            "commit_hash": null,
+            "branch": null
+        },
+        "required": [],
+        "idx": 1,
+        "version": "15.121.1"
+    },
+    "training_management": {
+        "is_repo": false,
+        "resolution": "not a repo",
+        "required": [],
+        "idx": 2,
+        "version": "0.0.1"
+    }
+}

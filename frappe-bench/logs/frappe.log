@@ -1,0 +1,165 @@
+2026-09-29 11:36:47,986 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,035 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,042 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,044 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,045 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,047 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,048 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,049 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,051 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:36:48,052 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound
+2026-09-29 11:37:55,143 ERROR frappe Failed to capture exception
+Site: training.local
+Form Dict: {}
+Traceback (most recent call last):
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 117, in capture_exception
+    set_scope(scope)
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe/frappe/utils/sentry.py", line 70, in set_scope
+    path = frappe.request.path
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 318, in __get__
+    obj = instance._get_current_object()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/lib/python3.11/site-packages/werkzeug/local.py", line 501, in _get_current_object
+    raise RuntimeError(unbound_message) from None
+RuntimeError: object is not bound

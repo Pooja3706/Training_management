@@ -1,0 +1,4 @@
+#!/bin/bash
+export GIT_CONFIG_GLOBAL=/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/.gitconfig
+export PATH=/Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/bin:/Users/pooja/.gemini/antigravity/scratch/bench_env/bin:/opt/homebrew/bin:$PATH
+exec /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench "$@"

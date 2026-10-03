@@ -1,0 +1,93 @@
+2026-09-29 11:27:23,351 DEBUG cd frappe-bench && uv venv env --seed --python /Users/pooja/.gemini/antigravity/scratch/.uv_python/cpython-3.11.16-macos-aarch64-none/bin/python3.11
+2026-09-29 11:27:25,406 LOG Getting frappe
+2026-09-29 11:27:25,406 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-09-29 11:27:32,367 LOG Installing frappe
+2026-09-29 11:27:32,368 DEBUG cd /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench && uv pip install  -e /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe  --python /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/bin/python
+2026-09-29 11:29:07,832 DEBUG cd /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/frappe && yarn install --check-files --verbose
+2026-09-29 11:29:49,918 DEBUG cd frappe-bench && bench build
+2026-09-29 11:29:50,223 INFO /Users/pooja/.local/bin/bench build
+2026-09-29 11:29:58,414 LOG setting up backups
+2026-09-29 11:30:03,716 LOG backups were set up
+2026-09-29 11:30:03,716 INFO Bench frappe-bench initialized
+2026-09-29 11:30:26,193 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --version
+2026-09-29 11:30:31,306 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --version
+2026-09-29 11:30:35,591 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-app --help
+2026-09-29 11:31:45,451 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-app --no-git training_management
+2026-09-29 11:31:45,453 LOG creating new app training_management
+2026-09-29 11:31:45,765 LOG Installing training_management
+2026-09-29 11:31:45,766 DEBUG cd /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench && uv pip install --quiet -e /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/training_management  --python /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/bin/python
+2026-09-29 11:31:46,021 DEBUG bench build --app training_management
+2026-09-29 11:31:46,024 WARNING /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-app --no-git training_management executed with exit code 1
+2026-09-29 11:32:15,525 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-site --help
+2026-09-29 11:33:06,419 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-site training.local --db-type mariadb --mariadb-root-username root --mariadb-root-password root --admin-password admin --db-host 127.0.0.1 --set-default
+2026-09-29 11:33:56,001 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local install-app training_management
+2026-09-29 11:34:07,498 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local set-config developer_mode 1
+2026-09-29 11:34:28,354 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local execute frappe.get_doc --args {"doctype": "Module Def", "module_name": "Employee Training Module", "app_name": "training_management"}
+2026-09-29 11:39:46,237 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local clear-cache
+2026-09-29 11:44:33,948 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 11:44:33,952 WARNING /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start executed with exit code 1
+2026-09-29 11:45:46,690 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 11:45:46,693 WARNING /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start executed with exit code 1
+2026-09-29 11:47:29,297 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 11:48:10,566 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 11:48:10,798 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 11:48:10,799 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 11:48:10,809 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 11:48:10,810 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 11:48:10,820 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 11:59:32,812 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-app training_management
+2026-09-29 11:59:32,815 LOG creating new app training_management
+2026-09-29 12:00:01,019 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-09-29 12:02:11,139 LOG Installing training_management
+2026-09-29 12:02:11,140 DEBUG cd /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench && uv pip install --quiet -e /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/apps/training_management  --python /Users/pooja/.gemini/antigravity/scratch/frappe_workspace/frappe-bench/env/bin/python
+2026-09-29 12:02:12,425 DEBUG bench build --app training_management
+2026-09-29 12:02:12,507 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench build --app training_management
+2026-09-29 12:02:21,421 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench new-site training.local --admin-password admin --mariadb-root-password root
+2026-09-29 12:02:59,476 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench use training.local
+2026-09-29 12:03:51,008 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local set-config developer_mode 1
+2026-09-29 12:04:10,516 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local install-app training_management
+2026-09-29 12:05:14,115 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local execute frappe.get_doc --args {"doctype": "Module Def", "module_name": "Employee Training Module", "app_name": "training_management", "custom": 0}
+2026-09-29 12:17:00,968 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 12:17:01,155 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 12:17:01,159 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 12:17:01,160 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 12:17:01,172 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 12:17:01,175 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 12:22:26,054 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local clear-cache
+2026-09-29 13:11:12,676 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --site training.local clear-cache
+2026-09-29 13:11:46,131 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 13:11:46,329 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 13:11:46,332 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 13:11:46,333 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 13:11:46,333 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 13:11:46,348 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 13:17:31,899 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 13:17:32,098 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 13:17:32,101 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 13:17:32,102 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 13:17:32,103 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 13:17:32,117 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 14:48:08,685 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 14:48:08,887 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 14:48:08,887 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 14:48:08,894 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 14:48:08,906 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 14:48:08,915 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 14:49:47,385 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 14:49:47,568 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 14:49:47,577 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 14:49:47,577 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 14:49:47,579 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 14:49:47,590 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 14:50:50,533 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench start
+2026-09-29 14:50:50,708 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench socketio
+2026-09-29 14:50:50,708 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench worker
+2026-09-29 14:50:50,710 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench schedule
+2026-09-29 14:50:50,710 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench serve --port 8000
+2026-09-29 14:50:50,735 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench watch
+2026-09-29 18:00:00,503 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-09-30 12:00:01,513 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-09-30 18:00:01,637 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-10-01 12:00:00,607 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-10-01 18:00:00,636 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
+2026-10-03 12:00:01,081 INFO /Users/pooja/.gemini/antigravity/scratch/bench_env/bin/bench --verbose --site all backup
